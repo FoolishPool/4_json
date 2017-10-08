@@ -2,8 +2,8 @@ import json
 
 def load_data(filepath):
     with open(filepath, 'r') as file:
-        json_decode = json.loads(file.read())
-        return json_decode
+        json_content = json.loads(file.read())
+        return json_content
 
 def pretty_print_json(data):
     pretty_print = json.dumps(data, sort_keys=True, indent=4, ensure_ascii = False)
@@ -11,5 +11,5 @@ def pretty_print_json(data):
 
 if __name__ == '__main__':
     path_to_file = input('Filepath: ')
-    json_decode = load_data(path_to_file)
-    pretty_print_json(json_decode)
+    json_content = load_data(path_to_file)
+    pretty_print_json(json_content)
