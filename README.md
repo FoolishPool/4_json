@@ -1,12 +1,11 @@
-# Prettify JSON
+# Понятный JSON
 
 Задача состоит в том, чтобы написать скрипт, который на вход принимает путь до файла с произвольными данными в формате JSON и выводит его содержимое в консоль в удобном для чтения виде: добавляет переносы строк, отступы слева и пробелы.
 
-# Quickstart
+# Быстрый старт
 
-[TODO]
 
-Example of script launch on Linux, Python 3.5:
+Пример запуска скрипта Linux, Python 3.5:
 
 ```
 
@@ -188,6 +187,6 @@ Filepath: file.json
 ]
 
 
-# Project Goals
+# Цели проекта
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+Код создан в учебных целях. В рамках учебного курса по веб-разработке ― DEVMAN.org
