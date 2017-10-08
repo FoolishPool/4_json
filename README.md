@@ -8,7 +8,7 @@
 Пример запуска скрипта Linux, Python 3.5:
 
 ```
-$ python pprint_json.py <path to file>
+$ python3 pprint_json.py <path to file>
 ```
 
 # Цели проекта
